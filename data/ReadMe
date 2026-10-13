@@ -1,0 +1,158 @@
+VII/296         Catalog of lopsided disk-like galaxies       (Nuritdinov+, 2024)
+================================================================================
+Analysis of data on lopsided galaxies and theories of their formation.
+    Nuritdinov S.N., Mirtadjieva K.T., Omonov A.U.
+   <Modern astronomy, 1, 401-404 (2024)>
+   =2025yCat.7296....0N
+================================================================================
+ADC_Keywords: Galaxy catalogs ; Morphology
+Keywords: catalogs - supermassive Black holes - halo radius - lopsided
+
+Abstract:
+    Ground-based and space observations show that the nuclei of many
+    diskshaped galaxies are significantly offset from their geometric
+    center. This can lead to the excitation of the lopsided mode m=1. To
+    determine the dependence of this effect on the geometry of the system,
+    in this work we have compared a non-stationary disk model with respect
+    to the gravitational instabilities of the lopsided mode N=3; m=1
+    perturbation. In this work we have also compiled a summary catalog of
+    lopsided diskshaped galaxies and conducted a statistical analysis of
+    their physical parameters.
+
+Description:
+    We have compiled a catalog of lopside galaxies whose nuclei are
+    shifted from their geometric center. The catalog contains a total of
+    2137 objects. We compiled the catalog using 37 articles.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table1.dat       222     2137   Catalog of lopsided galaxies
+table2.dat       159      683   Disk-like galaxies with lopsidedness
+table3.dat        89       55   Disk mass of lopsided spiral galaxies
+refs.dat          73       37   References
+--------------------------------------------------------------------------------
+
+See also:
+ J/AJ/131/1236    : Central black holes of spiral galaxies (Dong+, 2006)
+ J/A+A/521/A55    : The mass function of nearby black holes (Caramete+, 2010)
+ J/ApJ/781/12     : Morphological parameters of galaxies from Spitzer
+                                                          (Holwerda+, 2014)
+ J/MNRAS/446/2330 : Overmassive black holes (Savorgnan+, 2015)
+ J/A+A/587/A160   : 3.6um S4G Galactic bars characterization
+                                                          (Diaz-Garcia+, 2016)
+ J/ApJ/831/134    : BH masses & host galaxy dispersion vel.
+                                                          (van den Bosch, 2016)
+ J/ApJ/897/111    : Compilation of black hole, bulge and stellar masses
+                                                          (Zaw+, 2020)
+ J/ApJ/898/83     : BH masses and bulge+disk UV-3.6um color relations
+                                                          (Dullo+, 2020)
+  http://leda.univ-lyon1.fr/ : the Hyperleda Home Page
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units        Label      Explanations
+--------------------------------------------------------------------------------
+   1- 11  A11   ---          Name       Galaxy name
+  13- 19  F7.3  deg          GLON       Galactic Longitude
+  22- 28  F7.3  deg          GLAT       Galactic Latitude
+  31- 50  A20   ---          MType      Morphological type
+  52- 55  F4.1  ---          TType      T morphological type code from HyperLeda
+  58- 60  F3.1  ---        e_TType      Error on TType
+  63- 69  F7.2  mag          BMAG       Absolute B-band magnitude
+  72- 75  F4.2  mag        e_BMAG       Error on BMAG
+  78- 83  F6.2 mag/arcsec2   SBu        ?=- Mean effective surface brightness
+  86- 89  F4.2 mag/arcsec2 e_SBu        ?=- Error on SBu
+  92- 95  F4.2  [-]          logR25     ?=- Axis ratio in log scale
+                                         (log of major axis to minor axis)
+  98-101  F4.2  [-]        e_logR25     ?=- Actual error on logR25
+ 104-110  F7.2  km/s         Vrot       ?=- Apparent maximum rotation velocity
+                                         of gas
+ 112-116  F5.2  km/s       e_Vrot       ?=- Error on Vrot
+ 119-123  F5.2  [km/s]       logsigma   ?=- Stellar velocity dispersion in bulge
+ 127-130  F4.2  [km/s]     e_logsigma   ?=- Error on logsigma
+ 134-138  F5.2  [Msun]       logBHMass  ?=- Black Hole Mass, log solar units (1)
+     139  A1    ---        n_logBHMass  [*] Note on logBHMass
+ 142-145  F4.2  [Msun]       logMBH-FUV ?=- Tentative BH mass, MBH-CFUV,tot (2)
+ 148-151  F4.2  [Msun]       logMBH-NUV ?=- Tentative BH mass, MBH-CNUV,tot (2)
+ 155-159  F5.2  [Msun]       logM*      ?=- Total stellar mass, log solar units
+ 162-166  F5.2  [kpc]        logahalo   ?=- Halo core radius
+ 169-173  F5.2  [km/s]       logVhalo   ?=- Stellar velocity dispersion in galo
+ 176-181  F6.2  [-]          logMh/M*   ?=- Stellar-to-halo mass ratio
+ 184-189  F6.3  ---          A1         Degree of lopsidedness
+ 193-201  F9.6  ---          z          ?=- Redshift
+ 205-211  F7.3  Mpc          Dist       ?=- Distance
+ 213-222  A10   ---          Refs       Literature Reference(s)
+                                         (see refs.dat file)
+--------------------------------------------------------------------------------
+Note (1): * for the black hole masses found based on observational data
+Note (2): Tentative BH mass, MBH-CFUV,tot and logMBH-NUV
+ Tentative BH mass, MBH-CNUV,tot were obtained from (J/ApJ/898/83 : BH masses
+ and bulge+disk UV-3.6um color relations (Dullo et al., 2020ApJ...898...83D)).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 26  A26   ---     Name      Galaxy name
+  28- 38  F11.7 deg     GLON      Galactic Longitude
+  42- 52  F11.7 deg     GLAT      Galactic Latitude
+  55- 60  A6    ---     MType     Morphological type from HyperLeda
+  62- 67  F6.2  mag     BMAG      ?=- Absolute B-band magnitude
+  70- 75  F6.4  mag   e_BMAG      ?=- Error on BMAG
+  77- 80  F4.1  ---     TType     ?=- T morphological type code from HyperLeda
+  83- 85  F3.1  ---   e_TType     ?=- Error on TType
+  88- 92  F5.1  km/s    Vrot      ?=- Apparent maximum rotation velocity of gas
+  94- 97  F4.1  km/s  e_Vrot      ?=- Error on Vrot
+ 101-105  F5.1  km/s    Sigmac    ?=- Central velocity dispersion
+ 110-114  F5.2  km/s  e_Sigmac    ?=- Error on Sigmac
+ 115-124  F10.7 ---     z         ?=- Redshift
+ 126-132  F7.3  Mpc     Dist      ?=- Distance
+ 135-139  F5.3  ---     A1        ?=- Degree of lopsidedness
+ 143-148  F6.4  ---     A2        ?=- Degree of lopsidedness
+ 151-159  A9    ---     Refs      Literature Reference(s) (see refs.dat file)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units     Label      Explanations
+--------------------------------------------------------------------------------
+   1-  9  A9    ---       Name       Galaxy name
+  11- 16  A6    ---       MType      Morphological type
+  18- 20  F3.1  ---       TType      T morphological type code from HyperLeda
+  23- 25  F3.1  ---     e_TType      Error on TType
+  28- 33  F6.3  [Msun]    logMdisk   Disk Mass, log solar units
+  36- 39  F4.2  [Msun]  e_logMdisk   ?=- Error on log(M_disk)
+  42- 45  F4.2  Gyr       t          ?=- Age of stars in the disk
+  48- 51  F4.2  Gyr     e_t          ?=- Error on t
+  54- 57  F4.2  Sun       Z          ?=- Metallicity of stars in the disk
+  60- 63  F4.2  Sun     e_Z          ?=- Error on Z
+  66- 69  F4.2  [Msun]    logBHMass  ?=- Black hole mass
+  73- 77  F5.3  ---       A1         Degree of lopsidedness
+  81- 89  A9    ---       Refs       Literature Reference(s) (see refs.dat file)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: refs.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  2  I2    ---     Ref       Reference code
+   5- 23  A19   ---     BibCode   Bibcode of the reference
+  26- 50  A25   ---     Aut       Author's name(s)
+  53- 73  A21   ---     Comm      Comment
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    A.U. Omonov, abbosomonov998(at)gmail.com
+
+References:
+    Published in Proceedings of International conference
+    "Modern astronomy: From the early Universe to exoplanets and black holes",
+    2024, Vol. 1,  pp. 401-404. DOI:10.26119/VAK2024.074
+    https://sao.editorum.ru/en/nauka/conference_article/12057/view
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  22-Jan-2025
